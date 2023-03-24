@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(227, 220, 233);
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 58px;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 14px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+ul li.focus {
+  color: rgb(252, 247, 178);
+  border-color: rgb(252, 247, 178);
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main {
+  width: 800px;
+  background-color: blueviolet;
+  color: rgb(248, 241, 255);
+  padding: 24px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+img {
+  width: 300px;
+}
+
+.download {
+  color: rgb(44, 44, 44);
+  background-color: rgb(233, 186, 33);
+
+  font-family: "roboto";
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  color: grey;
+  margin-top: 30px;
+}
+
+a {
+  background-color: rgb(252, 247, 178);
+  color: rgb(84, 36, 129);
+  border-radius: 4px;
+
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  background-color: rgb(233, 186, 33);
+}
